@@ -1,0 +1,134 @@
+[
+  {
+    "isin": "RU9TEST00012",
+    "valuation_date": "2026-10-27",
+    "modified_duration": 0.75,
+    "convexity": 1.50,
+    "price_currency": "RUB",
+    "fx_rub_per_unit": 1,
+    "clean_price_pct": 99.50,
+    "nominal_per_bond": 1000,
+    "accrued_interest_per_bond": 0
+  },
+  {
+    "isin": "RU9TEST00020",
+    "valuation_date": "2026-10-27",
+    "modified_duration": 2.40,
+    "convexity": 8.10,
+    "price_currency": "RUB",
+    "fx_rub_per_unit": 1,
+    "clean_price_pct": 100.00,
+    "nominal_per_bond": 1000,
+    "accrued_interest_per_bond": 12.34
+  },
+  {
+    "isin": "RU9TEST00079",
+    "valuation_date": "2026-10-27",
+    "modified_duration": 3.15,
+    "convexity": 12.40,
+    "price_currency": "RUB",
+    "fx_rub_per_unit": 1,
+    "clean_price_pct": 97.80,
+    "nominal_per_bond": 1000,
+    "accrued_interest_per_bond": 7.25
+  },
+  {
+    "isin": "RU9TEST00038",
+    "valuation_date": "2026-10-27",
+    "modified_duration": 5.10,
+    "convexity": 32.50,
+    "price_currency": "RUB",
+    "fx_rub_per_unit": 1,
+    "clean_price_pct": 96.25,
+    "nominal_per_bond": 1000,
+    "accrued_interest_per_bond": 19.75
+  },
+  {
+    "isin": "RU9TEST00046",
+    "valuation_date": "2026-10-27",
+    "modified_duration": 7.80,
+    "convexity": 72.00,
+    "price_currency": "RUB",
+    "fx_rub_per_unit": 1,
+    "clean_price_pct": 103.40,
+    "nominal_per_bond": 1000,
+    "accrued_interest_per_bond": 35.00
+  },
+  {
+    "isin": "XS9TEST00018",
+    "valuation_date": "2026-10-27",
+    "modified_duration": 3.80,
+    "convexity": 18.00,
+    "price_currency": "USD",
+    "fx_rub_per_unit": 95.35,
+    "clean_price_pct": 101.25,
+    "nominal_per_bond": 1000,
+    "accrued_interest_per_bond": 8.75
+  },
+  {
+    "isin": "XS9TEST00059",
+    "valuation_date": "2026-10-27",
+    "modified_duration": 4.55,
+    "convexity": 26.30,
+    "price_currency": "USD",
+    "fx_rub_per_unit": 95.35,
+    "clean_price_pct": 98.40,
+    "nominal_per_bond": 1000,
+    "accrued_interest_per_bond": 14.10
+  },
+  {
+    "isin": "XS9TEST00026",
+    "valuation_date": "2026-10-27",
+    "modified_duration": 6.40,
+    "convexity": 51.20,
+    "price_currency": "EUR",
+    "fx_rub_per_unit": 104.80,
+    "clean_price_pct": 89.70,
+    "nominal_per_bond": 500,
+    "accrued_interest_per_bond": 23.15
+  },
+  {
+    "isin": "XS9TEST00034",
+    "valuation_date": "2026-10-27",
+    "modified_duration": 10.20,
+    "convexity": 122.00,
+    "price_currency": "EUR",
+    "fx_rub_per_unit": 104.80,
+    "clean_price_pct": 110.125,
+    "nominal_per_bond": 1000,
+    "accrued_interest_per_bond": 0
+  },
+  {
+    "isin": "RU9TEST00053",
+    "valuation_date": "2026-10-27",
+    "modified_duration": 0.25,
+    "convexity": 0.15,
+    "price_currency": "RUB",
+    "fx_rub_per_unit": 1,
+    "clean_price_pct": 99.98,
+    "nominal_per_bond": 100,
+    "accrued_interest_per_bond": 1.20
+  },
+  {
+    "isin": "RU9TEST00061",
+    "valuation_date": "2026-10-27",
+    "modified_duration": 15.75,
+    "convexity": 260.00,
+    "price_currency": "RUB",
+    "fx_rub_per_unit": 1,
+    "clean_price_pct": 75.00,
+    "nominal_per_bond": 1000,
+    "accrued_interest_per_bond": 75.00
+  },
+  {
+    "isin": "XS9TEST00042",
+    "valuation_date": "2026-10-27",
+    "modified_duration": 2.10,
+    "convexity": 5.80,
+    "price_currency": "CNY",
+    "fx_rub_per_unit": 12.60,
+    "clean_price_pct": 100.50,
+    "nominal_per_bond": 100,
+    "accrued_interest_per_bond": 5.00
+  }
+]
