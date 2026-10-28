@@ -1,134 +1,242 @@
 [
   {
-    "isin": "RU9TEST00012",
-    "valuation_date": "2026-10-27",
-    "modified_duration": 0.75,
-    "convexity": 1.50,
-    "price_currency": "RUB",
-    "fx_rub_per_unit": 1,
-    "clean_price_pct": 99.50,
-    "nominal_per_bond": 1000,
-    "accrued_interest_per_bond": 0
+    "instrumentSnapshot": {
+      "isin": "RU9TEST00012",
+      "currency": "RUB",
+      "nominalPrice": 1000,
+      "cleanPrice": 99.5,
+      "fetchedAt": "2026-10-27T00:00:00Z",
+      "type": "BOND",
+      "name": "Mock Bond 01",
+      "source": "dv01-mock"
+    },
+    "instrumentDetails": {
+      "accruedCouponIncome": 0,
+      "modifiedDuration": 0.75,
+      "convexity": 1.5,
+      "couponType": "NO_COUPON",
+      "paymentPeriod": "NO_PERIOD",
+      "couponIncomePerPeriod": 0
+    }
   },
   {
-    "isin": "RU9TEST00020",
-    "valuation_date": "2026-10-27",
-    "modified_duration": 2.40,
-    "convexity": 8.10,
-    "price_currency": "RUB",
-    "fx_rub_per_unit": 1,
-    "clean_price_pct": 100.00,
-    "nominal_per_bond": 1000,
-    "accrued_interest_per_bond": 12.34
+    "instrumentSnapshot": {
+      "isin": "RU9TEST00020",
+      "currency": "RUB",
+      "nominalPrice": 1000,
+      "cleanPrice": 100,
+      "fetchedAt": "2026-10-27T00:00:00Z",
+      "type": "BOND",
+      "name": "Mock Bond 02",
+      "source": "dv01-mock"
+    },
+    "instrumentDetails": {
+      "accruedCouponIncome": 12.34,
+      "modifiedDuration": 2.4,
+      "convexity": 8.1,
+      "couponType": "FIXED",
+      "paymentPeriod": "ONCE_IN_HALF_YEAR",
+      "couponIncomePerPeriod": 25
+    }
   },
   {
-    "isin": "RU9TEST00079",
-    "valuation_date": "2026-10-27",
-    "modified_duration": 3.15,
-    "convexity": 12.40,
-    "price_currency": "RUB",
-    "fx_rub_per_unit": 1,
-    "clean_price_pct": 97.80,
-    "nominal_per_bond": 1000,
-    "accrued_interest_per_bond": 7.25
+    "instrumentSnapshot": {
+      "isin": "RU9TEST00079",
+      "currency": "RUB",
+      "nominalPrice": 1000,
+      "cleanPrice": 97.8,
+      "fetchedAt": "2026-10-27T00:00:00Z",
+      "type": "BOND",
+      "name": "Mock Bond 03",
+      "source": "dv01-mock"
+    },
+    "instrumentDetails": {
+      "accruedCouponIncome": 7.25,
+      "modifiedDuration": 3.15,
+      "convexity": 12.4,
+      "couponType": "FIXED",
+      "paymentPeriod": "ONCE_IN_QUARTER",
+      "couponIncomePerPeriod": 12.5
+    }
   },
   {
-    "isin": "RU9TEST00038",
-    "valuation_date": "2026-10-27",
-    "modified_duration": 5.10,
-    "convexity": 32.50,
-    "price_currency": "RUB",
-    "fx_rub_per_unit": 1,
-    "clean_price_pct": 96.25,
-    "nominal_per_bond": 1000,
-    "accrued_interest_per_bond": 19.75
+    "instrumentSnapshot": {
+      "isin": "RU9TEST00038",
+      "currency": "RUB",
+      "nominalPrice": 1000,
+      "cleanPrice": 96.25,
+      "fetchedAt": "2026-10-27T00:00:00Z",
+      "type": "BOND",
+      "name": "Mock Bond 04",
+      "source": "dv01-mock"
+    },
+    "instrumentDetails": {
+      "accruedCouponIncome": 19.75,
+      "modifiedDuration": 5.1,
+      "convexity": 32.5,
+      "couponType": "FIXED",
+      "paymentPeriod": "ONCE_IN_HALF_YEAR",
+      "couponIncomePerPeriod": 35
+    }
   },
   {
-    "isin": "RU9TEST00046",
-    "valuation_date": "2026-10-27",
-    "modified_duration": 7.80,
-    "convexity": 72.00,
-    "price_currency": "RUB",
-    "fx_rub_per_unit": 1,
-    "clean_price_pct": 103.40,
-    "nominal_per_bond": 1000,
-    "accrued_interest_per_bond": 35.00
+    "instrumentSnapshot": {
+      "isin": "RU9TEST00046",
+      "currency": "RUB",
+      "nominalPrice": 1000,
+      "cleanPrice": 103.4,
+      "fetchedAt": "2026-10-27T00:00:00Z",
+      "type": "BOND",
+      "name": "Mock Bond 05",
+      "source": "dv01-mock"
+    },
+    "instrumentDetails": {
+      "accruedCouponIncome": 35,
+      "modifiedDuration": 7.8,
+      "convexity": 72,
+      "couponType": "FIXED",
+      "paymentPeriod": "ONCE_IN_YEAR",
+      "couponIncomePerPeriod": 70
+    }
   },
   {
-    "isin": "XS9TEST00018",
-    "valuation_date": "2026-10-27",
-    "modified_duration": 3.80,
-    "convexity": 18.00,
-    "price_currency": "USD",
-    "fx_rub_per_unit": 95.35,
-    "clean_price_pct": 101.25,
-    "nominal_per_bond": 1000,
-    "accrued_interest_per_bond": 8.75
+    "instrumentSnapshot": {
+      "isin": "XS9TEST00018",
+      "currency": "USD",
+      "nominalPrice": 1000,
+      "cleanPrice": 101.25,
+      "fetchedAt": "2026-10-27T00:00:00Z",
+      "type": "BOND",
+      "name": "Mock Bond 06",
+      "source": "dv01-mock"
+    },
+    "instrumentDetails": {
+      "accruedCouponIncome": 8.75,
+      "modifiedDuration": 3.8,
+      "convexity": 18,
+      "couponType": "FIXED",
+      "paymentPeriod": "ONCE_IN_HALF_YEAR",
+      "couponIncomePerPeriod": 30
+    }
   },
   {
-    "isin": "XS9TEST00059",
-    "valuation_date": "2026-10-27",
-    "modified_duration": 4.55,
-    "convexity": 26.30,
-    "price_currency": "USD",
-    "fx_rub_per_unit": 95.35,
-    "clean_price_pct": 98.40,
-    "nominal_per_bond": 1000,
-    "accrued_interest_per_bond": 14.10
+    "instrumentSnapshot": {
+      "isin": "XS9TEST00059",
+      "currency": "USD",
+      "nominalPrice": 1000,
+      "cleanPrice": 98.4,
+      "fetchedAt": "2026-10-27T00:00:00Z",
+      "type": "BOND",
+      "name": "Mock Bond 07",
+      "source": "dv01-mock"
+    },
+    "instrumentDetails": {
+      "accruedCouponIncome": 14.1,
+      "modifiedDuration": 4.55,
+      "convexity": 26.3,
+      "couponType": "FIXED",
+      "paymentPeriod": "ONCE_IN_QUARTER",
+      "couponIncomePerPeriod": 15
+    }
   },
   {
-    "isin": "XS9TEST00026",
-    "valuation_date": "2026-10-27",
-    "modified_duration": 6.40,
-    "convexity": 51.20,
-    "price_currency": "EUR",
-    "fx_rub_per_unit": 104.80,
-    "clean_price_pct": 89.70,
-    "nominal_per_bond": 500,
-    "accrued_interest_per_bond": 23.15
+    "instrumentSnapshot": {
+      "isin": "XS9TEST00026",
+      "currency": "EUR",
+      "nominalPrice": 500,
+      "cleanPrice": 89.7,
+      "fetchedAt": "2026-10-27T00:00:00Z",
+      "type": "BOND",
+      "name": "Mock Bond 08",
+      "source": "dv01-mock"
+    },
+    "instrumentDetails": {
+      "accruedCouponIncome": 23.15,
+      "modifiedDuration": 6.4,
+      "convexity": 51.2,
+      "couponType": "FIXED",
+      "paymentPeriod": "ONCE_IN_YEAR",
+      "couponIncomePerPeriod": 25
+    }
   },
   {
-    "isin": "XS9TEST00034",
-    "valuation_date": "2026-10-27",
-    "modified_duration": 10.20,
-    "convexity": 122.00,
-    "price_currency": "EUR",
-    "fx_rub_per_unit": 104.80,
-    "clean_price_pct": 110.125,
-    "nominal_per_bond": 1000,
-    "accrued_interest_per_bond": 0
+    "instrumentSnapshot": {
+      "isin": "XS9TEST00034",
+      "currency": "EUR",
+      "nominalPrice": 1000,
+      "cleanPrice": 110.125,
+      "fetchedAt": "2026-10-27T00:00:00Z",
+      "type": "BOND",
+      "name": "Mock Bond 09",
+      "source": "dv01-mock"
+    },
+    "instrumentDetails": {
+      "accruedCouponIncome": 0,
+      "modifiedDuration": 10.2,
+      "convexity": 122,
+      "couponType": "FIXED",
+      "paymentPeriod": "ONCE_IN_HALF_YEAR",
+      "couponIncomePerPeriod": 50
+    }
   },
   {
-    "isin": "RU9TEST00053",
-    "valuation_date": "2026-10-27",
-    "modified_duration": 0.25,
-    "convexity": 0.15,
-    "price_currency": "RUB",
-    "fx_rub_per_unit": 1,
-    "clean_price_pct": 99.98,
-    "nominal_per_bond": 100,
-    "accrued_interest_per_bond": 1.20
+    "instrumentSnapshot": {
+      "isin": "RU9TEST00053",
+      "currency": "RUB",
+      "nominalPrice": 100,
+      "cleanPrice": 99.98,
+      "fetchedAt": "2026-10-27T00:00:00Z",
+      "type": "BOND",
+      "name": "Mock Bond 10",
+      "source": "dv01-mock"
+    },
+    "instrumentDetails": {
+      "accruedCouponIncome": 1.2,
+      "modifiedDuration": 0.25,
+      "convexity": 0,
+      "couponType": "FLOATER",
+      "paymentPeriod": "ONCE_IN_QUARTER",
+      "couponIncomePerPeriod": 2.5
+    }
   },
   {
-    "isin": "RU9TEST00061",
-    "valuation_date": "2026-10-27",
-    "modified_duration": 15.75,
-    "convexity": 260.00,
-    "price_currency": "RUB",
-    "fx_rub_per_unit": 1,
-    "clean_price_pct": 75.00,
-    "nominal_per_bond": 1000,
-    "accrued_interest_per_bond": 75.00
+    "instrumentSnapshot": {
+      "isin": "RU9TEST00061",
+      "currency": "RUB",
+      "nominalPrice": 1000,
+      "cleanPrice": 75,
+      "fetchedAt": "2026-10-27T00:00:00Z",
+      "type": "BOND",
+      "name": "Mock Bond 11",
+      "source": "dv01-mock"
+    },
+    "instrumentDetails": {
+      "accruedCouponIncome": 75,
+      "modifiedDuration": 15.75,
+      "convexity": 260,
+      "couponType": "FIXED",
+      "paymentPeriod": "ONCE_IN_YEAR",
+      "couponIncomePerPeriod": 80
+    }
   },
   {
-    "isin": "XS9TEST00042",
-    "valuation_date": "2026-10-27",
-    "modified_duration": 2.10,
-    "convexity": 5.80,
-    "price_currency": "CNY",
-    "fx_rub_per_unit": 12.60,
-    "clean_price_pct": 100.50,
-    "nominal_per_bond": 100,
-    "accrued_interest_per_bond": 5.00
+    "instrumentSnapshot": {
+      "isin": "XS9TEST00042",
+      "currency": "CNY",
+      "nominalPrice": 100,
+      "cleanPrice": 100.5,
+      "fetchedAt": "2026-10-27T00:00:00Z",
+      "type": "BOND",
+      "name": "Mock Bond 12",
+      "source": "dv01-mock"
+    },
+    "instrumentDetails": {
+      "accruedCouponIncome": 5,
+      "modifiedDuration": 2.1,
+      "convexity": 5.8,
+      "couponType": "FIXED",
+      "paymentPeriod": "ONCE_IN_HALF_YEAR",
+      "couponIncomePerPeriod": 6
+    }
   }
 ]
